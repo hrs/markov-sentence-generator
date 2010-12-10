@@ -93,7 +93,7 @@ def genSentence ():
 
 def main ():
 	if len (sys.argv) < 2:
-		sys.stderr.write ('Usage: sys.argv [0] text_source [chain_length=1]\n')
+		sys.stderr.write ('Usage: ' + sys.argv [0] + ' text_source [chain_length=1]\n')
 		sys.exit (1)
 	filename = sys.argv [1]
 	global markovLength
